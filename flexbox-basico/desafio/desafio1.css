@@ -1,0 +1,14 @@
+.flex-container {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;   
+}
+
+.flex-item {
+    margin: 8px;
+}
+
+.flex-container :nth-child(3) {
+    margin-left: auto;
+}

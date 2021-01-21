@@ -1,0 +1,39 @@
+.flex-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.flex-item {
+    margin: 8px;
+}
+
+.flex-container :nth-child(odd) {
+    align-self: center;
+    margin-bottom: auto;
+}
+
+/* 
+    1.  Conceitos básicos
+        1. Eixos
+        2. Terminologias
+    2. Eixos na prática
+        1. introduzir o display: flex
+        2. flex-direction: Row e Column
+    3. Organizando itens em Rows
+        1. justify-content: flex-start
+                            flex-end
+                            center
+                            space-around
+                            space-between
+                            space-evenly
+        2. margin-auto
+        3. align-items: flex-start
+                        flex-end
+                        center
+        4. align-self
+    4. Invertendo os eixos
+        1. Falando sobre a inversão entre aling-items e justify-content
+*/

@@ -1,0 +1,113 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    background-color: #282a36;
+}
+
+.nav {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+}
+.nav__item {
+    font-weight: bold;
+    margin-right: 32px;
+}
+
+.nav__item--pink {
+    color: #ff79c6;
+}
+
+.nav__item:hover {
+    color: #8be9fd;
+}
+
+.nav__item--foreground {
+    color: #f8f8f2;
+}
+
+.nav__item--medium {
+    font-size: 1.5em;
+}
+
+.nav__item--large {
+    font-size: 2em;
+}
+
+.banner {
+    height: 300px;
+    background: url(./assets/images/profile-bg/coral.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid {
+    padding: 30px 0;
+    height: max-content;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-auto-rows: 450px;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px rgba(255,255,255,.2);
+}
+
+.post__image {
+    background: url(./assets/images/post-image/skating.jpg);
+    flex: 5;
+    background-position: center;
+    background-size: cover;
+}
+
+.post__content {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #f8f8f2;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0 24px;
+}
+
+.post__content__avatar {
+    overflow: hidden;  
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #ff5555;
+    transform: translateY(-35px);
+}
+
+.post__content__avatar img {
+    width: auto;
+    height: 100%;
+    margin-left: -17px;
+}
+
+.post__actions {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.post__action svg  {
+    stroke: #50fa7b;
+}
