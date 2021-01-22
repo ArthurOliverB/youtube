@@ -6,20 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./utils/base.css">
     <link rel="stylesheet" href="style.css">
+    
     <style>
-        footer {
+        #footer {
             position: fixed;
             bottom: 0;
-            text-align: center;
+            left: 0;
+            right: 0;
             height: 80px;
-            width: 100vh;
             background-color: #161821;
+            text-align: center;
             display: flex;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
-
         }
+        
+        p {
+            color: blue!important;
+        }
+            
     </style>
+    <!-- pq usar id so uma vez -->
     <title>Seletores & Especificidade</title>
 </head>
 
@@ -28,16 +36,16 @@
         <section id="especificidade">
             <h1 class="titulo">Seletores<br />& Especificidade</h1>
             <h2 class="subtitulo">Especificidade</h2>
-            <p>
+            <p id="id" style="color: red!important">
                 <span>s.f</span>
                 qualidade daquilo que é específico; particularidade;<br />
                 qualidade própria, peculiar, de uma espécie.
             </p>
         </section>
-        <footer>
-            &ltCOD3R/&gt
-        </footer>
     </main>
+    <footer id="footer">
+        <p>&ltCOD3R/&gt</p>
+    </footer>
 </body>
 
 </html>

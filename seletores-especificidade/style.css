@@ -1,4 +1,4 @@
-.titulo {
+/* .titulo {
     color: #FF9B5E;
 }
 
@@ -13,4 +13,12 @@ p {
 
 span {
     color: #BAD761;
+} */
+
+p {
+    color: red!important;
+}
+
+p {
+    color: green!important;
 }
