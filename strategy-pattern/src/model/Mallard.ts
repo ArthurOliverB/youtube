@@ -1,4 +1,4 @@
-import Duck from "./Duck";
+import Duck from "./DuckContext";
 import { QuackWithSyrinx } from "./common/ConcreteQuack";
 import { FlyWithWings } from "./common/ConcreteFly";
 
